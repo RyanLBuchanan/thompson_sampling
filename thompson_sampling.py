@@ -18,6 +18,11 @@ ads_selected = []
 numbers_of_rewards_1 = [0] * d
 numbers_of_rewards_0 = [0] * d
 
+for n in range(0, N):
+    ad = 0
+    max_random = 0
+    for i in range(0, d):
+
 # Visualize the results in histogram
 plt.hist(ads_selected)
 plt.title('Histogram of Ads Selections')
