@@ -23,6 +23,9 @@ for n in range(0, N):
     max_random = 0
     for i in range(0, d):
         random_beta = random.betavariate(numbers_of_rewards_1[i] + 1, numbers_of_rewards_0[i] + 1)
+        if (random_beta > max_random):
+            max_random = random_beta
+            ad = i
 
 # Visualize the results in histogram
 plt.hist(ads_selected)
