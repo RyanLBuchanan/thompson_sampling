@@ -15,8 +15,5 @@ N = 10000
 # Number of adds
 d = 10 
 ads_selected = []
-# N_i(n)
-numbers_of_selections = [0] * d
-# R_i(n)
-sums_of_rewards = [0] * d
-total_reward = 0
+
+# Visualize the results in histogram
