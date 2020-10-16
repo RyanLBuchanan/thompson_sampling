@@ -15,6 +15,8 @@ N = 10000
 # Number of adds
 d = 10 
 ads_selected = []
+numbers_of_rewards_1 = [0] * d
+numbers_of_rewards_0 = [0] * d
 
 # Visualize the results in histogram
 plt.hist(ads_selected)
