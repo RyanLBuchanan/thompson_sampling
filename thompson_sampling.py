@@ -7,3 +7,5 @@ import pandas as pd
 
 # Import dataset
 dataset = pd.read_csv('Ads_CTR_Optimisation.csv')
+
+# Implement Thompson Sampling model
