@@ -17,3 +17,8 @@ d = 10
 ads_selected = []
 
 # Visualize the results in histogram
+plt.hist(ads_selected)
+plt.title('Histogram of Ads Selections')
+plt.xlabel('SUV adds')
+plt.ylabel('# of Times Ad Selected')
+plt.show()
